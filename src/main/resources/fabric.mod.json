@@ -6,7 +6,7 @@
   "description": "Bundled ffmpeg runtime + Java API for other mods.",
   "authors": ["tg:@jello_neuro"],
   "contact": {},
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "environment": "client",
   "entrypoints": {
     "client": [
