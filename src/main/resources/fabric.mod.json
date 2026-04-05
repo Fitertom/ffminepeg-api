@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ffminepeg_api",
+  "version": "${version}",
+  "name": "FFMinepeg API",
+  "description": "Bundled ffmpeg runtime + Java API for other mods.",
+  "authors": ["tg:@jello_neuro"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "info.sigmaclient.ffminepeg.FfminepegClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}
